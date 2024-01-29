@@ -1,0 +1,457 @@
+*{
+    margin : 0px ; 
+    border : border-box ;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+.navbar {
+    height: 32px ;
+    background-color: #003262;
+    display: flex;
+    justify-content: space-around ;
+    align-items: center ;
+}
+
+.navbar-menu a {
+    color : white ;
+    font-size: 14px ;
+    margin-left: 25px ;
+    text-decoration: none ;
+
+
+}
+
+.navbar-menu a:hover {
+    text-decoration: underline ;
+}
+.navbar-menu{
+    padding-right : 60px  ;
+}
+
+.hindi {
+    font-size : 15px ;
+    color: white ;
+    padding-right: 50px ;
+}
+
+.container {
+    background-color: transparent ;
+    height: 200px ;
+}
+
+.main-header {
+    height: 685px ;
+    background-image: url("nsut.jpg");
+    background-size: cover ;
+    animation : main-header 10s none;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+}
+
+@keyframes main-header {
+    0%{
+        background-image: url("moksha.jpg");
+    }
+    20%{
+        background-image: url("banner1.jpg");
+        
+    }
+    40%{
+        background-image: url("banner2.jpg");
+        
+    }
+    80%{
+        background-image: url("lg.jpg");
+        
+    }
+    100%{
+        background-image: url("nsut_green_view.jpg");
+       
+    }
+    
+}
+.name-address {
+    height: 110px ;
+    background-color: transparent  ;
+    display: flex ;
+    justify-content: center ;
+    text-align: center ;
+    
+}
+
+.name {
+    height: 88px ;
+    padding:15px ;
+    
+}
+
+.G20 {
+    padding : 15px ;
+}
+
+.address{
+    font-size: 14px ;
+    color : white ;
+    padding : 30px ;
+    display: flex ;
+    justify-content: center ;
+    text-align: left  ;
+}
+
+.location-icon {
+    font-size: 38px ;
+    height: 48px;
+    width: 38px ;
+    margin-left: 10px ;
+    
+} 
+
+
+.header2 {
+    display: flex ;
+    text-align: center;
+    justify-content: center ;
+
+}
+.mov-link{
+    height: 27px; 
+    width: 846px ;
+    background-color: transparent ;
+    font-weight: bold;
+    text-transform: capitalize;
+    text-decoration: none ;
+    padding-left: 15px ;
+    padding-right: 15px ;
+
+}
+
+.mov-link a {
+    padding-left : 15px ;
+    color: white ;
+    text-decoration: none ;
+}
+.geet{
+    /* font-size: ;
+    height: 27px ; 
+    width: 129px ;
+    background-color: brown; */
+
+    margin-bottom: 0;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    background: linear-gradient(red, #fbfbfb);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+.audio audio {
+    margin-left: 10px ;
+    height: 27px ;
+    width: 260px ;
+    background-color:transparent ;
+}
+
+.header3 ul {
+    display: flex ;
+    justify-content: center ;
+    align-items: left ;
+    list-style: none ;
+    border: none ;
+    margin: 10px ;
+}
+
+.header3 a {
+    text-decoration: NONE ;
+    color: white ;
+    display: flex;
+    justify-content: center ;
+    font-weight: 500 ;
+    padding-left: 20px ;
+    padding-right: 20px;
+    
+}
+
+
+.form form {
+    display: flex ;
+    justify-content: center;
+    align-items: center ;
+}
+
+
+.about {
+    margin-left :3% ;
+    margin-right: 3%  ;
+    
+    height: 340px ;
+    padding-left : 70px ;
+    padding-right: 70px ;
+}
+
+.about-nsut {
+    height: 53px ;
+    display: flex;
+    justify-content: left;
+    text-align: center ;
+    margin-top : 60px ;
+}
+
+.about-nsut h2  {
+    font-weight: 400 ;
+    font-size: 36px ;
+    position : relative ;
+    
+    
+}
+
+
+
+.about-content {
+    margin-top: 30px ;
+    font-size: 18px;
+    line-height:  30px ;
+    font-weight: 400 ;
+    width: 1108;
+    height: 120 ;
+}
+
+/* .more-link div {
+    border : 1px solid black ;
+    height: 30px ;
+    width: 101px ;
+    margin-top : 10px ;
+    display: flex;
+    justify-content: center;
+    text-align: center ;
+} */
+
+
+.more-link a {
+    font-size: 14px ;
+    border: 1px solid #000000;
+    padding: 5px 10px;
+    font-weight: 400;
+    color: #000000;
+    margin-top: 10px;
+    display: inline-block;
+    text-decoration: none ;
+}
+
+.line{
+    height: 3px ;
+    width: 60px ;
+    background-color: #4C6F91 ;
+}
+
+.news_title {
+    padding-left: 15px ;
+    display: flex;
+    text-align: center;
+    align-items: center ;
+    justify-content: center  ;
+    font-size: 18px ;
+    font-weight: bold;
+
+}
+
+.news_content {
+    background-color: white ;
+    display: flex ;
+    font-size: 16px ;
+    padding: 10px ;
+    height: 150px ;
+    width :280px ;
+    margin-left: 20px ;
+    
+}
+
+.news_content {
+    padding-bottom: 10px ;
+}
+
+.some_news{
+    background-color: #003262;
+    height: 310px ;
+    display: flex ;
+    justify-content: space-evenly;
+    align-items : center ;
+}
+
+.news_box {
+    background-color: transparent ;
+    height: 210px ;
+    width: 340px ;
+    padding-left: 10px ;
+    padding-right : 10px ;
+
+    
+}
+
+
+.latest_news {
+    border-top : 1px solid #4c6f91 ;
+    padding : 50px;
+    height: 546px ;
+
+    background-color: pink ;
+
+}
+
+.latest_news1 {
+    border-top : 3px solid #4c6f91 ;
+    height: 214px ;
+    width: 280px ;
+    padding: 20px ;
+    padding-left: 0px ;
+
+}
+
+.latest_news_heading {
+    font-size : 36px;
+    color: #006FCE ;
+
+}
+
+.latest_news_content {
+    font-size: 16px ;
+    margin-top: 20px ;
+    line-height: 20px ;
+    font-weight: 400;
+    letter-spacing: 0.2px ;
+    
+}
+
+.latest_news_all {
+    margin-top : 50px ;
+}
+
+.all{
+    height: 56px ;
+    width: 184px ;
+    background-color: red ;
+    color: white ;
+    font-size : 16px ;
+    ;
+    display: flex ;
+    justify-content: center;
+    line-height: 52px ;
+}
+
+
+.departments {
+    height: 525px ;
+}
+
+.depart_heading {
+    margin-bottom: 50px ;
+    height: 53px ;
+    text-align: center ;
+    align-items: center ;
+    padding-top: 30px ;
+}
+
+.depart_heading h1{
+    display: block ;
+}
+.line2 {
+    width: 60px ;
+    height: 3px ;
+    background-color: #4C6F91;
+    display: block;
+    margin: 7px auto;
+}
+
+.depart_box {
+    height: 380px;
+    width: 380px ;
+    text-align: center;
+    align-items: center ;
+    margin: auto ;
+    letter-spacing: 0.2px ;
+    font: 150 ;
+    line-height: 30px ;
+}
+
+.depart_box img {
+    border-radius: 50% ;
+
+}
+.depart_names{
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+}
+
+.depart_title {
+    display: flex;
+    justify-content: center ;
+    text-align: center ;
+    font-size: 22px ;
+    margin-top: 20px ;
+}
+
+.depart_box .more-link a {
+    font-size: 16px;
+    color: #000000;
+    width: 184px;
+    height: 56px;
+    border: 2px solid #000000;
+    display: inline-block;
+    line-height: 50px;
+    box-sizing: border-box;
+    padding: 0;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+
+
+.Part10{
+    background-color: #003262;
+    color: white;
+    padding-top: 10px;
+}
+
+.subPart-10{
+    display: grid;
+    grid-template-columns: repeat(4,1fr)    ;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.sub-subPart-10{
+    padding: 30px;
+    
+}
+.sub-subPart-10 h4{
+    /* margin-top: 2em; */
+    margin-bottom: 1em;
+}
+.sub-subPart-10 a{
+    display: block;
+    margin: 10px;
+}
+.sub-subPart-10 hr{
+    border: dotted;
+
+    color: gray
+}
+.sub-subPart-10 p{
+    margin-top: 1em;
+}
+.Links-sub-subPart-10{
+    padding-right: 5em  ;
+    border-right: dotted;
+}
+
+span{
+    color: #006FCE;
+}
+
+.Part10 a {
+    color: white ;
+    text-decoration: none ;
+}
